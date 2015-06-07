@@ -59,11 +59,11 @@ module.exports.connections = {
   mongodb: {
     adapter: 'sails-mongo',
 
-    host : 'localhost',
+    // host : 'localhost',
     port: 27017,
-    // url : 'mongodb://heroku_app37622123:uis09geudh2uhan2hq13aqitd3@ds043982.mongolab.com:43982/heroku_app37622123',
-    // user: 'nate',
-    // password: 'nate123',
+    url : 'mongodb://heroku_app37622123:uis09geudh2uhan2hq13aqitd3@ds043982.mongolab.com:43982/heroku_app37622123',
+    user: 'nate',
+    password: 'nate123',
     database: 'mattpolk'
   },
   mongodbProduction : {
