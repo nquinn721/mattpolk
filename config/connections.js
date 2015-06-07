@@ -70,8 +70,8 @@ module.exports.connections = {
     adapter: 'sails-mongo',
     // port: 43982,
     url: process.env.MONGOLAB_URI,
-    // user : 'nate',
-    // password : 'nate123',
+    user : 'nate',
+    password : 'nate123',
     // database: 'mattpolk'
   },
 
