@@ -68,11 +68,11 @@ module.exports.connections = {
   },
   mongodbProduction : {
     adapter: 'sails-mongo',
-    port: 27017,
+    // port: 43982,
     url: process.env.MONGOLAB_URI,
-    user : 'nate',
-    password : 'nate123',
-    database: 'mattpolk'
+    // user : 'nate',
+    // password : 'nate123',
+    // database: 'mattpolk'
   },
 
 
