@@ -68,6 +68,7 @@ module.exports.connections = {
   },
   mongodbProduction : {
     adapter: 'sails-mongo',
+    port: 27017,
     url: process.env.MONGOLAB_URI,
     user : 'nate',
     password : 'nate123',
