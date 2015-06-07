@@ -56,24 +56,25 @@ module.exports.connections = {
   * Run: npm install sails-mongo                                             *
   *                                                                          *
   ***************************************************************************/
-  // mongodb: {
-  //   adapter: 'sails-mongo',
-
-  //   // host : 'localhost',
-  //   port: 27017,
-  //   url : 'mongodb://heroku_app37622123:uis09geudh2uhan2hq13aqitd3@ds043982.mongolab.com:43982/heroku_app37622123',
-  //   user: 'nate',
-  //   password: 'nate123',
-  //   database: 'mattpolk'
-  // },
-  mongodb : {
+  mongodb: {
     adapter: 'sails-mongo',
-    // port: 43982,
-    url: process.env.MONGOLAB_URI,
-    user : 'nate',
-    password : 'nate123',
+
+    // host : 'localhost',
+    url : 'mongodb://heroku_app37622123:uis09geudh2uhan2hq13aqitd3@ds043982.mongolab.com:43982/heroku_app37622123',
+    // port: 27017,
+    // user: 'nate',
+    // password: 'nate123',
     // database: 'mattpolk'
   },
+  mongodbProduction : {
+    url : 'mongodb://heroku_app37622123:uis09geudh2uhan2hq13aqitd3@ds043982.mongolab.com:43982/heroku_app37622123',
+    adapter: 'sails-mongo',
+  //   // port: 43982,
+  //   url: process.env.MONGOLAB_URI,
+  //   user : 'nate',
+  //   password : 'nate123',
+  //   // database: 'mattpolk'
+  // },
 
 
   /***************************************************************************
