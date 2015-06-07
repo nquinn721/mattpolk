@@ -74,7 +74,7 @@ module.exports.connections = {
   //   user : 'nate',
   //   password : 'nate123',
   //   // database: 'mattpolk'
-  // },
+  },
 
 
   /***************************************************************************
